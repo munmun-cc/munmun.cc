@@ -1,0 +1,142 @@
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+header {
+  background-color: #f9adaf;
+}
+
+header #navbarNavAltMarkup a {
+  transform: translateY(0px);
+  transition: 0.3s;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+header #navbarNavAltMarkup a:hover {
+  transform: translateY(-5px);
+  color: #c12e4e;
+}
+
+header #navbarNavAltMarkup a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: -2px;
+  height: 0;
+  border-bottom: 1px solid #c12e4e;
+  transition: 0.3s;
+}
+
+header #navbarNavAltMarkup a:hover:after {
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #f9adaf;
+}
+
+header #navbarNavAltMarkup .active {
+  transform: translateY(-5px);
+  color: #c12e4e;
+}
+.main {
+  max-width: 1200px;
+  /* max-width: 96%; */
+  margin: auto;
+}
+  /* .main .contact {
+    padding: 50px;
+  } */
+
+.main .contact .contact-img,
+.main .contact .contact-content {
+text-align: center;
+}
+
+.main .contact .contact-img img {
+  width: 100%;
+}
+
+.main .contact .contact-content {
+  vertical-align: middle;
+}
+
+.mask {
+  width: 98%;
+  margin: 0 1%;
+}
+
+.mask-header {
+  width: 100%;
+}
+
+.mask-body {
+  width: 100%;
+  height: 50px;
+  text-align: justify;
+}
+
+.mask-body h5 {
+  color: #6c757d;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.mask-body p {
+  color: #878787;
+}
+
+.mask-img {
+  max-width: 100%;
+  height: auto;
+}
+.mask-detail {
+  color: #f9adaf;
+}
+
+.page-footer {
+  background-color: #f9adaf;
+  position: absolute;
+  width: 100%;
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.page-footer p,
+.page-footer h5,
+.page-footer h6,
+.page-footer .footer-copyright {
+  color: #ffffff;
+}
+
+.page-footer a:hover {
+  color: #c12e4e;
+}
+
+@media screen and (min-width: 481px) {
+  .mask {
+    width: 48%;
+    float: left;
+    margin: 0 1%;
+  }
+}
+
+/*PC版樣式 (≧769px)*/
+@media screen and (min-width: 768px) {
+  .mask {
+    width: 31.333%;
+    float: left;
+    margin: 0 1%;
+  }
+
+  .main .contact {
+    padding: 50px;
+  }
+
+  .main .contact .contact-img,
+  .main .contact .contact-content {
+    display: inline-block;
+    width: 49%;
+  }
+}
