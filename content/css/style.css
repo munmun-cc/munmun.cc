@@ -67,6 +67,7 @@ text-align: center;
 
 .mask-header {
   width: 100%;
+  height: 234px;
 }
 
 .mask-body {
@@ -86,7 +87,7 @@ text-align: center;
 
 .mask-img {
   max-width: 100%;
-  height: auto;
+  height: 234px;
 }
 .mask-detail {
   color: #f9adaf;
