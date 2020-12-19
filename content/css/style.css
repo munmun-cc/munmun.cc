@@ -2,7 +2,7 @@
   font-family: "Noto Sans TC", sans-serif;
 }
 header {
-  background-color: #f9adaf;
+  background-color: #E64D62;
 }
 
 header #navbarNavAltMarkup a {
@@ -14,7 +14,7 @@ header #navbarNavAltMarkup a {
 
 header #navbarNavAltMarkup a:hover {
   transform: translateY(-5px);
-  color: #c12e4e;
+  color: #F7CC7F;
 }
 
 header #navbarNavAltMarkup a:after {
@@ -24,19 +24,19 @@ header #navbarNavAltMarkup a:after {
   right: 50%;
   bottom: -2px;
   height: 0;
-  border-bottom: 1px solid #c12e4e;
+  border-bottom: 1px solid #F7CC7F;
   transition: 0.3s;
 }
 
 header #navbarNavAltMarkup a:hover:after {
   left: 0;
   right: 0;
-  border-bottom: 1px solid #f9adaf;
+  border-bottom: 1px solid #E64D62;
 }
 
 header #navbarNavAltMarkup .active {
   transform: translateY(-5px);
-  color: #c12e4e;
+  color: #F7CC7F;
 }
 .main {
   max-width: 1200px;
@@ -90,11 +90,11 @@ text-align: center;
   height: 234px;
 }
 .mask-detail {
-  color: #f9adaf;
+  color: #E64D62;
 }
 
 .page-footer {
-  background-color: #f9adaf;
+  background-color: #E64D62;
   position: absolute;
   width: 100%;
 }
