@@ -67,18 +67,27 @@ text-align: center;
 
 .mask-header {
   width: 100%;
-  height: 234px;
+  /* height: 234px; */
 }
 
 .mask-body {
   width: 100%;
-  height: 50px;
+  /* height: 50px; */
   text-align: justify;
 }
+/* hr{
+  max-width: 50px;
+  border-bottom: solid 3px #4B9AF7;
+} */
 
 .mask-body h5 {
   color: #6c757d;
   font-family: "Noto Sans TC", sans-serif;
+}
+.mask-body h6{
+  color:#E64D62;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: bold;
 }
 
 .mask-body p {
