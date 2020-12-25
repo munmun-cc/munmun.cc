@@ -75,10 +75,13 @@ text-align: center;
   /* height: 50px; */
   text-align: justify;
 }
-/* hr{
-  max-width: 50px;
-  border-bottom: solid 3px #4B9AF7;
-} */
+.mask-body hr {
+  border-bottom: solid 2px #E64D62;
+  border-top:#ffffff;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .mask-body h5 {
   color: #6c757d;
